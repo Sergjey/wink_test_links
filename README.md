@@ -26,4 +26,5 @@ python -m pytest -v
 
 ---
 
-## Можно запустить через github actions > run workflow кнопку
+## Можно запустить через github actions > run workflow кнопку 
+https://github.com/Sergjey/wink_test_links/actions/workflows/tests.yml
