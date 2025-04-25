@@ -14,7 +14,7 @@
 
 ---
 
-## 🚀 Как запустить
+## Как развернуть на своей машине
 
 ```bash
 git clone https://github.com/your-username/wink_test_links.git
@@ -22,3 +22,7 @@ cd wink_test_links
 python -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
 python -m pytest -v
+
+---
+
+## Можно запустить через github actions > run workflow кнопку
