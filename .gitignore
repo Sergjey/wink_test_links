@@ -8,5 +8,5 @@ venv/
 .pytest_cache/
 *.cover
 coverage.xml
-*.txt
+#*.txt
 .DS_Store
