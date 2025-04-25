@@ -23,12 +23,3 @@ jobs:
 
       - name: Run tests
         run: python -m pytest -v
-
-      - name: Upload test artefacts
-        if: always()
-        uses: actions/upload-artifact@v3.1.2
-        with:
-          name: test-results
-          path: |
-            non_200.txt
-            canonical_mismatch.txt
